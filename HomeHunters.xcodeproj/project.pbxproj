@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B86F90468734308D7BCF14 /* libPods-HomeHunters.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3FE2B31DC58BB9FD0EADE3 /* libPods-HomeHunters.a */; };
+		202F052E208BA33800E0D3E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F052D208BA33800E0D3E9 /* AppDelegate.swift */; };
+		202F0530208BA33800E0D3E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F052F208BA33800E0D3E9 /* ViewController.swift */; };
+		202F0533208BA33800E0D3E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202F0531208BA33800E0D3E9 /* Main.storyboard */; };
+		202F0535208BA33900E0D3E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 202F0534208BA33900E0D3E9 /* Assets.xcassets */; };
+		202F0538208BA33900E0D3E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 202F0536208BA33900E0D3E9 /* LaunchScreen.storyboard */; };
+		202F0543208BA33900E0D3E9 /* HomeHuntersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F0542208BA33900E0D3E9 /* HomeHuntersTests.swift */; };
+		202F054E208BA33900E0D3E9 /* HomeHuntersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F054D208BA33900E0D3E9 /* HomeHuntersUITests.swift */; };
+		202F055C208BA4A800E0D3E9 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F055B208BA4A800E0D3E9 /* SurveyViewController.swift */; };
+		202F055E208BB7C600E0D3E9 /* UserEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F055D208BB7C600E0D3E9 /* UserEngine.swift */; };
+		202F0560208BC05800E0D3E9 /* ComputationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F055F208BC05800E0D3E9 /* ComputationEngine.swift */; };
+		202F0564208BE1DC00E0D3E9 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202F0563208BE1DC00E0D3E9 /* ScoreViewController.swift */; };
+		20E5D894208C02810017F9E1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E5D893208C02810017F9E1 /* MapView.swift */; };
+		20E5D896208C05EE0017F9E1 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E5D895208C05EE0017F9E1 /* Manager.swift */; };
+		20E5D89A208C2C600017F9E1 /* City-iPhone-Wallpapersgood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20E5D899208C2C5F0017F9E1 /* City-iPhone-Wallpapersgood.jpg */; };
+		20E5D8A0208C30E80017F9E1 /* Button_go.png in Resources */ = {isa = PBXBuildFile; fileRef = 20E5D89F208C30E80017F9E1 /* Button_go.png */; };
+		20E5D8A2208C31FF0017F9E1 /* Button_go-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 20E5D8A1208C31FE0017F9E1 /* Button_go-2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		202F053F208BA33900E0D3E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 202F0522208BA33800E0D3E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202F0529208BA33800E0D3E9;
+			remoteInfo = HomeHunters;
+		};
+		202F054A208BA33900E0D3E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 202F0522208BA33800E0D3E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202F0529208BA33800E0D3E9;
+			remoteInfo = HomeHunters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		202F052A208BA33800E0D3E9 /* HomeHunters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeHunters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		202F052D208BA33800E0D3E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		202F052F208BA33800E0D3E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		202F0532208BA33800E0D3E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		202F0534208BA33900E0D3E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		202F0537208BA33900E0D3E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		202F0539208BA33900E0D3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202F053E208BA33900E0D3E9 /* HomeHuntersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeHuntersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		202F0542208BA33900E0D3E9 /* HomeHuntersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHuntersTests.swift; sourceTree = "<group>"; };
+		202F0544208BA33900E0D3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202F0549208BA33900E0D3E9 /* HomeHuntersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeHuntersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		202F054D208BA33900E0D3E9 /* HomeHuntersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHuntersUITests.swift; sourceTree = "<group>"; };
+		202F054F208BA33900E0D3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202F055B208BA4A800E0D3E9 /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		202F055D208BB7C600E0D3E9 /* UserEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEngine.swift; sourceTree = "<group>"; };
+		202F055F208BC05800E0D3E9 /* ComputationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputationEngine.swift; sourceTree = "<group>"; };
+		202F0563208BE1DC00E0D3E9 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		20E5D893208C02810017F9E1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		20E5D895208C05EE0017F9E1 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		20E5D899208C2C5F0017F9E1 /* City-iPhone-Wallpapersgood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "City-iPhone-Wallpapersgood.jpg"; path = "../../../Desktop/City-iPhone-Wallpapersgood.jpg"; sourceTree = "<group>"; };
+		20E5D89F208C30E80017F9E1 /* Button_go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Button_go.png; path = ../../../Library/Containers/com.apple.Preview/Data/Downloads/Button_go.png; sourceTree = "<group>"; };
+		20E5D8A1208C31FE0017F9E1 /* Button_go-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button_go-2.png"; path = "../../../Library/Containers/com.apple.Preview/Data/Downloads/Button_go-2.png"; sourceTree = "<group>"; };
+		6F3FE2B31DC58BB9FD0EADE3 /* libPods-HomeHunters.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HomeHunters.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F20F6B79E162F69CE9C83A /* Pods-HomeHunters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeHunters.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeHunters/Pods-HomeHunters.release.xcconfig"; sourceTree = "<group>"; };
+		8901B0FDDE3F6A9EC5949A73 /* Pods-HomeHunters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeHunters.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeHunters/Pods-HomeHunters.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		202F0527208BA33800E0D3E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B86F90468734308D7BCF14 /* libPods-HomeHunters.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202F053B208BA33900E0D3E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202F0546208BA33900E0D3E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0184D97CAACF8AD1FC91C0BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8901B0FDDE3F6A9EC5949A73 /* Pods-HomeHunters.debug.xcconfig */,
+				76F20F6B79E162F69CE9C83A /* Pods-HomeHunters.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		202F0521208BA33800E0D3E9 = {
+			isa = PBXGroup;
+			children = (
+				202F052C208BA33800E0D3E9 /* HomeHunters */,
+				202F0541208BA33900E0D3E9 /* HomeHuntersTests */,
+				202F054C208BA33900E0D3E9 /* HomeHuntersUITests */,
+				202F052B208BA33800E0D3E9 /* Products */,
+				0184D97CAACF8AD1FC91C0BB /* Pods */,
+				504B2A8EF02AFFA0A71E109A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		202F052B208BA33800E0D3E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				202F052A208BA33800E0D3E9 /* HomeHunters.app */,
+				202F053E208BA33900E0D3E9 /* HomeHuntersTests.xctest */,
+				202F0549208BA33900E0D3E9 /* HomeHuntersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		202F052C208BA33800E0D3E9 /* HomeHunters */ = {
+			isa = PBXGroup;
+			children = (
+				202F052D208BA33800E0D3E9 /* AppDelegate.swift */,
+				202F052F208BA33800E0D3E9 /* ViewController.swift */,
+				20E5D895208C05EE0017F9E1 /* Manager.swift */,
+				202F055B208BA4A800E0D3E9 /* SurveyViewController.swift */,
+				202F055F208BC05800E0D3E9 /* ComputationEngine.swift */,
+				202F055D208BB7C600E0D3E9 /* UserEngine.swift */,
+				202F0531208BA33800E0D3E9 /* Main.storyboard */,
+				20E5D893208C02810017F9E1 /* MapView.swift */,
+				202F0563208BE1DC00E0D3E9 /* ScoreViewController.swift */,
+				20E5D899208C2C5F0017F9E1 /* City-iPhone-Wallpapersgood.jpg */,
+				20E5D89F208C30E80017F9E1 /* Button_go.png */,
+				20E5D8A1208C31FE0017F9E1 /* Button_go-2.png */,
+				202F0534208BA33900E0D3E9 /* Assets.xcassets */,
+				202F0536208BA33900E0D3E9 /* LaunchScreen.storyboard */,
+				202F0539208BA33900E0D3E9 /* Info.plist */,
+			);
+			path = HomeHunters;
+			sourceTree = "<group>";
+		};
+		202F0541208BA33900E0D3E9 /* HomeHuntersTests */ = {
+			isa = PBXGroup;
+			children = (
+				202F0542208BA33900E0D3E9 /* HomeHuntersTests.swift */,
+				202F0544208BA33900E0D3E9 /* Info.plist */,
+			);
+			path = HomeHuntersTests;
+			sourceTree = "<group>";
+		};
+		202F054C208BA33900E0D3E9 /* HomeHuntersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				202F054D208BA33900E0D3E9 /* HomeHuntersUITests.swift */,
+				202F054F208BA33900E0D3E9 /* Info.plist */,
+			);
+			path = HomeHuntersUITests;
+			sourceTree = "<group>";
+		};
+		504B2A8EF02AFFA0A71E109A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F3FE2B31DC58BB9FD0EADE3 /* libPods-HomeHunters.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		202F0529208BA33800E0D3E9 /* HomeHunters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202F0552208BA33900E0D3E9 /* Build configuration list for PBXNativeTarget "HomeHunters" */;
+			buildPhases = (
+				A03031F0232945CB6C6E03E0 /* [CP] Check Pods Manifest.lock */,
+				202F0526208BA33800E0D3E9 /* Sources */,
+				202F0527208BA33800E0D3E9 /* Frameworks */,
+				202F0528208BA33800E0D3E9 /* Resources */,
+				4EE63C58C6055BE8E63FAC51 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeHunters;
+			productName = HomeHunters;
+			productReference = 202F052A208BA33800E0D3E9 /* HomeHunters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		202F053D208BA33900E0D3E9 /* HomeHuntersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202F0555208BA33900E0D3E9 /* Build configuration list for PBXNativeTarget "HomeHuntersTests" */;
+			buildPhases = (
+				202F053A208BA33900E0D3E9 /* Sources */,
+				202F053B208BA33900E0D3E9 /* Frameworks */,
+				202F053C208BA33900E0D3E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202F0540208BA33900E0D3E9 /* PBXTargetDependency */,
+			);
+			name = HomeHuntersTests;
+			productName = HomeHuntersTests;
+			productReference = 202F053E208BA33900E0D3E9 /* HomeHuntersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		202F0548208BA33900E0D3E9 /* HomeHuntersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202F0558208BA33900E0D3E9 /* Build configuration list for PBXNativeTarget "HomeHuntersUITests" */;
+			buildPhases = (
+				202F0545208BA33900E0D3E9 /* Sources */,
+				202F0546208BA33900E0D3E9 /* Frameworks */,
+				202F0547208BA33900E0D3E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202F054B208BA33900E0D3E9 /* PBXTargetDependency */,
+			);
+			name = HomeHuntersUITests;
+			productName = HomeHuntersUITests;
+			productReference = 202F0549208BA33900E0D3E9 /* HomeHuntersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		202F0522208BA33800E0D3E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Diamond__Spider;
+				TargetAttributes = {
+					202F0529208BA33800E0D3E9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					202F053D208BA33900E0D3E9 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 202F0529208BA33800E0D3E9;
+					};
+					202F0548208BA33900E0D3E9 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 202F0529208BA33800E0D3E9;
+					};
+				};
+			};
+			buildConfigurationList = 202F0525208BA33800E0D3E9 /* Build configuration list for PBXProject "HomeHunters" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 202F0521208BA33800E0D3E9;
+			productRefGroup = 202F052B208BA33800E0D3E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				202F0529208BA33800E0D3E9 /* HomeHunters */,
+				202F053D208BA33900E0D3E9 /* HomeHuntersTests */,
+				202F0548208BA33900E0D3E9 /* HomeHuntersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		202F0528208BA33800E0D3E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202F0538208BA33900E0D3E9 /* LaunchScreen.storyboard in Resources */,
+				202F0535208BA33900E0D3E9 /* Assets.xcassets in Resources */,
+				202F0533208BA33800E0D3E9 /* Main.storyboard in Resources */,
+				20E5D89A208C2C600017F9E1 /* City-iPhone-Wallpapersgood.jpg in Resources */,
+				20E5D8A2208C31FF0017F9E1 /* Button_go-2.png in Resources */,
+				20E5D8A0208C30E80017F9E1 /* Button_go.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202F053C208BA33900E0D3E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202F0547208BA33900E0D3E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EE63C58C6055BE8E63FAC51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HomeHunters/Pods-HomeHunters-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeHunters/Pods-HomeHunters-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A03031F0232945CB6C6E03E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeHunters-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		202F0526208BA33800E0D3E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E5D894208C02810017F9E1 /* MapView.swift in Sources */,
+				202F0560208BC05800E0D3E9 /* ComputationEngine.swift in Sources */,
+				202F0530208BA33800E0D3E9 /* ViewController.swift in Sources */,
+				20E5D896208C05EE0017F9E1 /* Manager.swift in Sources */,
+				202F055C208BA4A800E0D3E9 /* SurveyViewController.swift in Sources */,
+				202F055E208BB7C600E0D3E9 /* UserEngine.swift in Sources */,
+				202F052E208BA33800E0D3E9 /* AppDelegate.swift in Sources */,
+				202F0564208BE1DC00E0D3E9 /* ScoreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202F053A208BA33900E0D3E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202F0543208BA33900E0D3E9 /* HomeHuntersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202F0545208BA33900E0D3E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202F054E208BA33900E0D3E9 /* HomeHuntersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		202F0540208BA33900E0D3E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202F0529208BA33800E0D3E9 /* HomeHunters */;
+			targetProxy = 202F053F208BA33900E0D3E9 /* PBXContainerItemProxy */;
+		};
+		202F054B208BA33900E0D3E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202F0529208BA33800E0D3E9 /* HomeHunters */;
+			targetProxy = 202F054A208BA33900E0D3E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		202F0531208BA33800E0D3E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202F0532208BA33800E0D3E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		202F0536208BA33900E0D3E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202F0537208BA33900E0D3E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		202F0550208BA33900E0D3E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		202F0551208BA33900E0D3E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		202F0553208BA33900E0D3E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8901B0FDDE3F6A9EC5949A73 /* Pods-HomeHunters.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2H95YDY2N;
+				INFOPLIST_FILE = HomeHunters/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Diamond.HomeHunters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		202F0554208BA33900E0D3E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F20F6B79E162F69CE9C83A /* Pods-HomeHunters.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y2H95YDY2N;
+				INFOPLIST_FILE = HomeHunters/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Diamond.HomeHunters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		202F0556208BA33900E0D3E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeHuntersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Diamond.HomeHuntersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeHunters.app/HomeHunters";
+			};
+			name = Debug;
+		};
+		202F0557208BA33900E0D3E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeHuntersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Diamond.HomeHuntersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeHunters.app/HomeHunters";
+			};
+			name = Release;
+		};
+		202F0559208BA33900E0D3E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeHuntersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Diamond.HomeHuntersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeHunters;
+			};
+			name = Debug;
+		};
+		202F055A208BA33900E0D3E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeHuntersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Diamond.HomeHuntersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeHunters;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		202F0525208BA33800E0D3E9 /* Build configuration list for PBXProject "HomeHunters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202F0550208BA33900E0D3E9 /* Debug */,
+				202F0551208BA33900E0D3E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202F0552208BA33900E0D3E9 /* Build configuration list for PBXNativeTarget "HomeHunters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202F0553208BA33900E0D3E9 /* Debug */,
+				202F0554208BA33900E0D3E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202F0555208BA33900E0D3E9 /* Build configuration list for PBXNativeTarget "HomeHuntersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202F0556208BA33900E0D3E9 /* Debug */,
+				202F0557208BA33900E0D3E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202F0558208BA33900E0D3E9 /* Build configuration list for PBXNativeTarget "HomeHuntersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202F0559208BA33900E0D3E9 /* Debug */,
+				202F055A208BA33900E0D3E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 202F0522208BA33800E0D3E9 /* Project object */;
+}
